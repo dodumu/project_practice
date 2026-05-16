@@ -1,0 +1,18 @@
+{{define "title"}}Profile Page{{end}}
+
+{{define "content"}}
+
+    {{template "navbar" .}}
+
+    <h1>Welcome {{.Name}}</h1>
+
+    <p>Your selected course are: </p>
+
+    <ul>
+        {{range .Courses}}
+
+        <li>{{.}}</li>
+
+        {{end}}
+    </ul>
+{{end}}

@@ -1,0 +1,34 @@
+{{define "title"}}Dashboard{{end}}
+
+{{define "content"}}
+    {{template "navbar" .}}
+    <form action="/dashboard" method="POST">
+        <h1>Welcome to Dashboard page {{.Name}}</h1>
+        <p>
+            
+            Select Your Courses
+        </p>
+        <br>
+        <label for="Go">Go</label>
+        <input type="checkbox" id="Go" name="Go">
+        <br>
+        <label for="HTML">HTML</label>
+        <input type="checkbox" id="HTML" name="HTML">
+        <br>
+        <label for="Databases">Databases</label>
+        <input type="checkbox" id="Databases" name="Databases">
+        <br>
+        <label for="Algorithims">Algorithims</label>
+        <input type="checkbox" id="Algorithims" name="Algorithims">
+        <br>
+        <label for="Css">Css</label>
+        <input type="checkbox" id="Css" name="Css">
+        <br>
+        <label for="DevOps">DevOps</label>
+        <input type="checkbox" id="DevOps" name="DevOps">
+        <br><br>
+        <button type="submit">To Courses</button>
+
+        
+    </form>
+{{end}}
