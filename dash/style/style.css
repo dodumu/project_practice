@@ -1,25 +1,31 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(121, 247, 121);
 }
 
 .dashboard{
     background-color: beige;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 80px;
     height: 300px;
     align-content: center;
     border-radius: 20px;
+    justify-content: center;
+    
     
 }
 
 .card{
+    
     background-color: white;
     color: burlywood;
     width: 150px;
     height: 150px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: red;
+   
    
 }
 
@@ -36,8 +42,12 @@ nav{
     width: 300px;
 }
 a:hover{
-    transform: scale(1.02);
+    transform: scale(2.0);
 }
 nav a{
     padding: 10px;
+}
+
+footer{
+    font-size: small;
 }
