@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+}
+
+.dashboard{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 300px;
+    align-content: center;
+    border-radius: 20px;
+    
+}
+
+.card{
+    background-color: white;
+    color: burlywood;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+a{
+    color: red;
+}
+
+nav{
+    background-color: white;
+    border-radius: 2px;
+    width: 300px;
+}
+a:hover{
+    transform: scale(1.02);
+}
+nav a{
+    padding: 10px;
+}
