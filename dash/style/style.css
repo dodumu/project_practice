@@ -3,7 +3,7 @@ body{
 }
 
 .dashboard{
-    background-color: beige;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     gap: 80px;
@@ -17,14 +17,14 @@ body{
 
 .card{
     
-    background-color: white;
-    color: burlywood;
+    background-color: whitesmoke;
+    color: black;
     width: 150px;
     height: 150px;
     padding: 20px;
     border-radius: 20px;
     border-style: solid;
-    border-color: red;
+    border-color: rgb(121, 247, 121);
    
    
 }
@@ -33,12 +33,12 @@ body{
     transform: scale(1.02);
 }
 a{
-    color: red;
+    color: rgb(104, 241, 104);
 }
 
 nav{
-    background-color: white;
-    border-radius: 2px;
+    background-color: whitesmoke;
+    border-radius: 5px;
     width: 300px;
 }
 a:hover{
