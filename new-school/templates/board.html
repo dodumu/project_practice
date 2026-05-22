@@ -1,0 +1,66 @@
+{{define "title"}}Student Dashboard{{end}}
+
+{{define "content"}}
+
+    <div class="layout">
+
+        <div class="sidebar">
+            <h3>Student Dashboard</h3>
+            <a href="/home">Home</a>
+            <a href="/courses">Courses</a>
+            <a href="/grades">Grades</a>
+            <a href="/timetable">Timetable</a>
+        </div>
+
+         <div class="main">
+            <h1>Welcome {{.Name}}</h1>
+        <div class="summary">
+            <div class="card">
+                <p>GPA</p>
+                <h2>3.8</h2>
+            </div>
+
+            <div class="card">
+                <p>Courses Enrolled</p>
+                <h2>6</h2>
+            </div>
+
+            <div class="card">
+                <p>Attendance</p>
+                <h2>92%</h2>
+            </div>
+
+        </div>
+
+       
+            <div class="action">
+            <button>View Timetable</button>
+            <button>Submit Assignment</button>
+            <button>Contact Lecturer</button>
+        </div>
+
+        <h3>Courses</h3>
+
+        <div class="summary">
+            <div class="card green">
+               <p>Mathematics</p>
+               <h2>4.0</h2>
+                <p>Ongoing</p>
+            </div>
+
+            <div class="card blue">
+                <p>Computer Science</p>
+                <h2>4.2</h2>
+                <p>Ongoing</p>
+            </div>
+
+            <div class="card orange">
+                <p>Physics</p>
+                <h2>3.9</h2>
+                <p>Ongoing</p>
+            </div>
+            
+        </div>
+    </div>
+        </div>
+{{end}}
