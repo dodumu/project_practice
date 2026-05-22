@@ -5,7 +5,9 @@ import (
 	"net/http"
 )
 
-type User struct{}
+type User struct {
+	Name string
+}
 
 func BaseHandler(w http.ResponseWriter, page string, data User) {
 	tmpl, err := template.ParseFiles(
@@ -27,7 +29,9 @@ func BaseHandler(w http.ResponseWriter, page string, data User) {
 }
 
 func DashHandler(w http.ResponseWriter, r *http.Request) {
-	data := User{}
+	data := User{
+		Name: "David",
+	}
 	BaseHandler(w, "dashboard.html", data)
 }
 

@@ -38,13 +38,55 @@ body{
 }
 
 .card{
-    background-color: #f4f4f4;
+    
     padding: 20px;
     border-radius: 10px;
-    width: 200px;
+    flex: 1;
+    background-color: #f4f4f4;
 }
 
 .card h2{
     font-size: 24px;
     margin: 0;
+}
+
+.actions{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #333333;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #333333;
+    color: white;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.green{
+    background-color: #e6f4ea;
+    border-left: 4px solid #2e7d32;
+}
+
+.blue{
+    background-color: #e8f0fe;
+    border-left: 4px solid #1a56db;
+}
+
+
+.orange {
+    background-color: #fff3e0;
+    border-left: 4px solid #e65100;
 }

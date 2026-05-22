@@ -3,6 +3,7 @@
 {{define "content"}}
 
 <div class="layout">
+    
     <div class="sidebar">
         <p>My Bank</p>
         <a href="/">Dashboard</a>
@@ -12,8 +13,8 @@
     </div>
 
     <div class="main">
-        <h1>Welcome David</h1>
-
+        <h1>Welcome {{.Name}}</h1>
+       
         <div class="summary">
            
             <div class="card">
@@ -32,6 +33,34 @@
             </div>
 
         </div>
+        <div class="actions">
+            <button>Apply for Loans</button>
+            <button>Transfer Funds</button>
+            <button>View Transactions</button>
+        </div>
+
+        <h3>Your Accounts</h3>
+
+        <div class="summary">
+            <div class="card green">
+                <p>Savings</p>
+                <h2>₦250,000</h2>
+                <p>Active</p>
+            </div>
+
+            <div class="card blue">
+                <p>Current</p>
+                <h2>₦250,000</h2>
+                <p>Active</p>
+            </div>
+
+            <div class="card orange">
+                <p>Loan</p>
+                <h2>₦200,000</h2>
+                <p>Repaying</p>
+            </div>
+        </div>
+
 
     </div>
     
